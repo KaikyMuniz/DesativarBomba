@@ -1,4 +1,4 @@
-const text = "Seja bem vindo(a) ao projeto name"; 
+const text = "Seja bem vindo(a) ao project - Week Math -"; 
 const element = document.getElementById("typing-effect");
 
 element.textContent = "";
