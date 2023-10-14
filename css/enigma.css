@@ -85,8 +85,8 @@ input{
     border-radius: 5px;
     margin-top: 5px;
     border-color: rgb(255, 255, 255);
-    font-size: clamp(0.8rem, 5vw, 1.2rem);
-    padding: 5px;
+    font-size: clamp(0.6rem, 5vw, 1.2rem);
+    height: 5vh;
     font-family: "Poppins";
     max-width: 30vw;
     color: #fff;
@@ -115,7 +115,8 @@ span{
 
     .center{
         background-color: #0000009a;
-        min-width: 100vw;
+        min-width: 96vw;
+        padding: 10vw;
         min-height: 100vh;
         justify-content: center;
     }
