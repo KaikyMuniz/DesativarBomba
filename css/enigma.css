@@ -52,7 +52,8 @@ label{
     color: #fff;
     font-family: "Poppins";
     line-height: 40px;
-    font-size: clamp(0.3rem, 5vw, 1.5rem);
+    width: 100;
+    font-size: clamp(0.4rem, 5vw, 1.5rem);
 }
 
 img{
@@ -105,4 +106,20 @@ span{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
+}
+
+@media (max-width: 800px){
+    body{
+        background-size: auto;
+    }
+
+    .center{
+        min-width: 100vw;
+        min-height: 100vh;
+        justify-content: center;
+    }
+
+    label{
+        line-height: 27px;
+    }
 }
