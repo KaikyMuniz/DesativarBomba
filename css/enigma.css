@@ -86,7 +86,7 @@ input{
     margin-top: 5px;
     border-color: rgb(255, 255, 255);
     font-size: clamp(0.6rem, 5vw, 1.2rem);
-    height: 5vh;
+    padding: 5px;
     font-family: "Poppins";
     max-width: 30vw;
     color: #fff;
@@ -124,4 +124,8 @@ span{
     label{
         line-height: 27px;
     }
+
+    input{
+        padding: 0;
+        height: 5vh;
 }
