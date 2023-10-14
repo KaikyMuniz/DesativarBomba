@@ -90,7 +90,7 @@ input{
     font-size:  clamp(0.8rem, 5vw, 1.2rem);
     padding: 5px;
     font-family: "Poppins";
-    min-width: 220px;
+    width: 220px;
     color: #fff;
     background-color: transparent;
     margin-left: 10px;
