@@ -13,32 +13,33 @@ body::before {
     background: rgba(0, 0, 0, 0.2);
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     min-width: 100vw;
     min-height: 100vh;
     background-image: url("../img/wallpaper\ 1.jpg");
-    background-size: 100vw 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
     background-position: center;
 }
 
-h1{
-    margin: 0;
+h1 {
+    margin: 10px 0 0 0;
     padding: 0;
     font-family: "Time";
-    font-size: 4em;
+    font-size: clamp(2rem, 5vw, 4rem);
     color: #67AD79;
     opacity: 0.8;
     font-weight: bolder;
     text-align: center;
-    width: 100vw;
+    width: 100%;
     letter-spacing: 1px;
+    word-wrap: break-word;
 }
 
-.center{
+.center {
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -50,23 +51,24 @@ h1{
     position: absolute;
 }
 
-img{
-    width: 450px;
+img {
+    width: 100%; 
+    max-width: 450px;
     opacity: 0.9;
 }
 
-button{
+button {
     background-color: transparent;
     border-color: #67AD79;
     font-family: "Time";
     color: #67AD79;
-    font-size: 3rem;
+    font-size: clamp(2rem, 5vw, 4rem);
     transition: 1s ease-in-out;
     border-radius: 15px 0 15px 0;
     cursor: pointer;
 }
 
-button:hover{
+button:hover {
     background-color: #3a6344;
     border-radius: 0 15px 0 15px;
     color: #000;   
