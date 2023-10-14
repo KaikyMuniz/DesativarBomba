@@ -27,7 +27,7 @@ h1{
     margin: 0;
     padding: 0;
     font-family: "Poppins";
-    font-size: clamp(1.5rem, 5vw, 2.5rem);
+    font-size: clamp(0.7rem, 5vw, 2.5rem);
     color: #FFF;
     text-align: center;
     letter-spacing: 1px;
@@ -37,7 +37,7 @@ h1{
     margin: 0;
     padding: 0;
     background-color: #000000d2;
-    padding: 35px;
+    padding: 5vh;
     max-width: 80vw;
     max-height: 85vh;
     border-radius: 10px 0 10px 0;
@@ -51,8 +51,8 @@ h1{
 label{
     color: #fff;
     font-family: "Poppins";
-    line-height: 5vh;
-    font-size: clamp(0.6rem, 5vw, 1.6rem);
+    line-height: 40px;
+    font-size: clamp(0.3rem, 5vw, 1.5rem);
 }
 
 img{
@@ -68,7 +68,7 @@ button{
     border-color: #67AD79;
     font-family: "Time";
     color: #67AD79;
-    font-size: 3rem;
+    font-size: clamp(2rem, 5vw, 3rem);
     transition: 1s ease-in-out;
     border-radius: 15px 0 15px 0;
     cursor: pointer;
@@ -84,10 +84,10 @@ input{
     border-radius: 5px;
     margin-top: 5px;
     border-color: rgb(255, 255, 255);
-    font-size: 1.2rem;
+    font-size: clamp(0.8rem, 5vw, 1.2rem);
     padding: 5px;
     font-family: "Poppins";
-    width: 220px;
+    max-width: 30vw;
     color: #fff;
     background-color: transparent;
 }
