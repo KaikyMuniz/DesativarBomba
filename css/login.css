@@ -3,6 +3,7 @@ body{
     padding: 0;
     min-width: 100vw;
     min-height: 100vh;
+    background-color: #000000;
 }
 
 .container{
@@ -28,8 +29,7 @@ body{
 }
 
 .title{
-    margin-top: 0;
-    font-size: 3.3em;
+    font-size: clamp(1.5rem, 5vw, 4.2rem);
     font-family: "Time";
     letter-spacing: 2px;
     line-height: 60px;
@@ -37,6 +37,7 @@ body{
     color: #04f710;
     border-right: 2px solid #000;
     overflow: hidden;
+    width: 100%;
     animation: typing 4s steps(40) forwards;
 }
 
@@ -50,11 +51,12 @@ body{
 }
 
 .info label{
-    font-size: 1.5em;
+    font-size: clamp(1.3rem, 3vw, 2.5rem);
     cursor: text;
     user-select: none;
     color: #04f710;
     font-weight: bold;
+    width: 100%;
 }
 
 .info input{
@@ -64,7 +66,7 @@ body{
     font-size: 1.2rem;
     padding: 5px;
     font-family: "Poppins";
-    width: 250px;
+    max-width: 30vw;
     color: #fff;
     background-color: transparent;
 }
@@ -100,9 +102,10 @@ button:hover{
 
 .card{
     background-color: #181818b6;
-    width: 30vw;
-    height: 40vh;
-    padding: 40px 0 40px 0;
+    min-width: 30vw;
+    min-height: 45vh;
+    max-width: 80vw;
+    padding: 40px 15px 40px 15px;
     color: #FFF;
     font-family: "Poppins";
     text-align: center;
@@ -132,4 +135,16 @@ button:hover{
     position: absolute;
     filter: invert(1);
     opacity: 0.8;
+}
+
+
+@media (max-width: 800px){
+    .image{
+        display: none;
+    }
+
+    .info{
+        min-width: 100vw;
+        min-height: 100vh;
+    }
 }
