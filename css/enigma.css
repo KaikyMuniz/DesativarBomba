@@ -114,6 +114,7 @@ span{
     }
 
     .center{
+        background-color: #0000009a;
         min-width: 100vw;
         min-height: 100vh;
         justify-content: center;
