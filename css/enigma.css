@@ -14,7 +14,7 @@ body{
     min-width: 100vw;
     min-height: 100vh;
     background-image: url("../img/wallpaper3.jpg");
-    background-size: 100vw 100vh;
+    background-size: cover;
     background-repeat: no-repeat;
     opacity: 1;
     background-position: center;
@@ -27,7 +27,7 @@ h1{
     margin: 0;
     padding: 0;
     font-family: "Poppins";
-    font-size: 2em;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
     color: #FFF;
     text-align: center;
     letter-spacing: 1px;
@@ -38,8 +38,8 @@ h1{
     padding: 0;
     background-color: #000000d2;
     padding: 35px;
-    width: 80vw;
-    height: 85vh;
+    max-width: 80vw;
+    max-height: 85vh;
     border-radius: 10px 0 10px 0;
     display: flex;
     flex-direction: column;
@@ -51,12 +51,13 @@ h1{
 label{
     color: #fff;
     font-family: "Poppins";
-    line-height: 40px;
-    font-size: 1.5em;
+    line-height: 5vh;
+    font-size: clamp(0.6rem, 5vw, 1.6rem);
 }
 
 img{
-    width: 450px;
+    width: 100%; 
+    max-width: 450px;
     opacity: 0.3;
     filter: invert(1);
     position: absolute;
@@ -102,5 +103,6 @@ span{
     justify-content: space-evenly;
     place-items: center;
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
