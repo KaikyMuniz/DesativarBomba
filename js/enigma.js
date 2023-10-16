@@ -18,7 +18,7 @@ btnConfirm.addEventListener('click', function(){
     resolution3.trim() === "\u004A\u0055\u0050\u0049\u0054\u0045\u0052" || 
     resolution3.trim() === "\u004A\u00DA\u0050\u0049\u0054\u0045\u0052" &&
     resolution4.trim() === "\u0053\u0041\u0054\u0055\u0052\u004e\u004f"){
-        window.location.href = "senha.html";
+        window.location.href = "\u0073\u0065\u006E\u0068\u0061\u002E\u0068\u0074\u006D\u006C";
     }else{
         window.alert("RESPOSTA INCORRETA!!!");
     }
