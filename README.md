@@ -1,6 +1,6 @@
 # DesativarBomba
 
-Este é um projeto de site desenvolvido para um evento escolar que envolve uma gincana de enigmas. Os participantes são desafiados a resolver uma série de enigmas e desafios para desativar uma "bomba". O site foi criado utilizando HTML, CSS e JavaScript, oferecendo uma experiência interativa e desafiadora.
+Este é um projeto de site desenvolvido para um evento escolar que envolveu uma gincana de enigmas. Os participantes foram desafiados a resolver uma série de enigmas e desafios para desativar uma "bomba". O site foi criado utilizando HTML, CSS e JavaScript, oferecendo uma experiência interativa e desafiadora.
 
 # Funcionalidades
 - Enigmas Desafiadores: Os participantes são apresentados a uma série de enigmas que precisam ser resolvidos para progredir.
